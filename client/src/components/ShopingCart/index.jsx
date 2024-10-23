@@ -1,4 +1,3 @@
-import Total from './Total';
 import CartList from './CartList';
 import CheckoutButton from './CheckoutButton';
 import { useStoreContext } from '../../context/store';
@@ -13,7 +12,6 @@ function ShoppingCart() {
         <h3>Cantidad de items: {state.cart.length}</h3>
       </div>
       <CartList />
-      <Total />
       <CheckoutButton />
     </div>
   );
